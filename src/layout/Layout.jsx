@@ -6,8 +6,9 @@ function Layout() {
       <header>
         <nav>
           <h1>JonaRounter</h1>
-          <NavLink to="/home">Home </NavLink>
+          <NavLink to="/">Home </NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/help">Help</NavLink>
         </nav>
       </header>
       <main>
