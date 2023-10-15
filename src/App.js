@@ -6,9 +6,12 @@ import {
 } from "react-router-dom";
 
 import About from "./components/About";
+import Career from "./components/careers/Career";
+import Error from "./components/Error";
 import Contact from "./components/help/Contact";
 import Faq from "./components/help/Faq";
 import Home from "./components/Home";
+import CareerLayout from "./layout/Career-layout";
 import Help from "./layout/Help-layout";
 import Layout from "./layout/Layout";
 
@@ -24,6 +27,14 @@ const rounter = createBrowserRouter(
         <Route path="contact" element={<Contact />} />
       </Route>
       {/* help part end */}
+
+      {/* Career */}
+      <Route path="careers" element={<CareerLayout />}>
+        <Route index element={<Career />}></Route>
+      </Route>
+      {/* End Career */}
+      {/* Error 404 */}
+      <Route path="*" element={<Error />} />
     </Route>
   )
 );
