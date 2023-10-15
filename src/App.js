@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 
 import About from "./components/About";
-import Career from "./components/careers/Career";
+import Career, { CareerServer } from "./components/careers/Career";
+import Info, { careerDetailLoader } from "./components/careers/Info";
+
 import Error from "./components/Error";
 import Contact from "./components/help/Contact";
 import Faq from "./components/help/Faq";
@@ -30,7 +32,8 @@ const rounter = createBrowserRouter(
 
       {/* Career */}
       <Route path="careers" element={<CareerLayout />}>
-        <Route index element={<Career />}></Route>
+        <Route index loader={CareerServer} element={<Career />} />
+        <Route path=":id" element={<Info />} loader={careerDetailLoader} />
       </Route>
       {/* End Career */}
       {/* Error 404 */}

@@ -4,43 +4,50 @@
       "id": 1,
       "title": "Senior React Developer",
       "salary": 50000,
-      "location": "London, UK"
+      "location": "London, UK",
+      "description": "Join an innovative tech team in the heart of London as a Senior React Developer. This role offers a competitive salary and the opportunity to work on cutting-edge web development projects."
     },
     {
       "id": 2,
       "title": "Plumber",
       "salary": 40000,
-      "location": "Bowser's Castle"
+      "location": "Bowser's Castle",
+      "description": "Looking for a plumbing adventure? Bowser's Castle is hiring a Plumber to keep its pipes in top shape. A unique job in a fantastical location."
     },
     {
       "id": 3,
       "title": "Gym Leader",
       "salary": 75000,
-      "location": "Kanto Region"
+      "location": "Kanto Region",
+      "description": "Become a Gym Leader in the famous Kanto Region! Lead aspiring Pokémon Trainers in battles, earn a competitive salary, and be part of the Pokémon world."
     },
     {
       "id": 4,
       "title": "Vue Developer",
       "salary": 40000,
-      "location": "Liverpool, UK"
+      "location": "Liverpool, UK",
+      "description": "Liverpool is seeking a Vue Developer to create beautiful web applications. Join a vibrant tech scene in this historic city."
     },
     {
       "id": 5,
       "title": "Tutorial Maker",
       "salary": 35000,
-      "location": "Manchester, UK"
+      "location": "Manchester, UK",
+      "description": "Help others learn and grow as a Tutorial Maker in Manchester. Share your knowledge and be part of the educational community."
     },
     {
       "id": 6,
       "title": "Website Manager",
       "salary": 50000,
-      "location": "Berlin, Germany"
+      "location": "Berlin, Germany",
+      "description": "Manage websites and online content in the dynamic city of Berlin. This role offers a competitive salary and a chance to work in an international environment."
     },
     {
       "id": 7,
       "title": "Food Tester",
       "salary": 30000,
-      "location": "London, UK"
+      "location": "London, UK",
+      "description": "Indulge your taste buds as a Food Tester in London. Explore culinary delights and help improve the city's food scene."
     }
   ]
 }
