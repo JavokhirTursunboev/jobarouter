@@ -13,7 +13,7 @@ In the project directory, you can run:
 Before running the code, you should start a JSON data server by running the following command:
 
 ```bash
-json-server -p 4000 -w .data/db.json
+json-server -p 4000 -w ./data/db.json
 ```
 
 This command will start a JSON server on port 4000 using the data from the `.data/db.json` file.

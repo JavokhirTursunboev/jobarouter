@@ -7,6 +7,7 @@ import {
 
 import About from "./components/About";
 import Career, { CareerServer } from "./components/careers/Career";
+import CareerError from "./components/careers/CareerError";
 import Info, { careerDetailLoader } from "./components/careers/Info";
 
 import Error from "./components/Error";
@@ -31,7 +32,11 @@ const rounter = createBrowserRouter(
       {/* help part end */}
 
       {/* Career */}
-      <Route path="careers" element={<CareerLayout />}>
+      <Route
+        path="careers"
+        element={<CareerLayout />}
+        errorElement={<CareerError />}
+      >
         <Route index loader={CareerServer} element={<Career />} />
         <Route path=":id" element={<Info />} loader={careerDetailLoader} />
       </Route>
