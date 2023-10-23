@@ -11,7 +11,7 @@ import CareerError from "./components/careers/CareerError";
 import Info, { careerDetailLoader } from "./components/careers/Info";
 
 import Error from "./components/Error";
-import Contact from "./components/help/Contact";
+import Contact, { ContactAction } from "./components/help/Contact";
 import Faq from "./components/help/Faq";
 import Home from "./components/Home";
 import CareerLayout from "./layout/Career-layout";
@@ -27,7 +27,7 @@ const rounter = createBrowserRouter(
       {/* help part */}
       <Route path="help" element={<Help />}>
         <Route path="faq" element={<Faq />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} action={ContactAction} />
       </Route>
       {/* help part end */}
 
